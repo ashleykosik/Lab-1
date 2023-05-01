@@ -1,0 +1,22 @@
+//Class examples
+
+var namesArr = ['Andrew', 'Jonathan', 'Josh', 'Brandon']
+var index = 0
+console.log(namesArr[index])
+index = 2
+console.log(namesArr[index])
+
+//array.function():
+//.push() - adds to end of array
+//.pop() - removes the last item of an array
+//.shift() - removes the first item from an array
+//.unshift() - adds to the front of an array, takes in an arguement
+//.slice() - create a new variable & use the index of another array to make a new array, just a copy
+//.splice() - can remove
+// (1, 1) - removes index 1 and can place it in a new variable
+// (1, 0, 'charles') - adds charles to index 1??
+//.length
+namesArr[namesArr.length -1]
+namesArr.push('Ashley')
+console.log(namesArr)
+var finalName = namesArr.pop()
